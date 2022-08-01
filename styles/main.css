@@ -1,25 +1,18 @@
 /*ESTILOS GENERALES*/
-body {
-  min-height: 660vh;
-  background-color: white;
+html, body {
+  overflow-x: hidden;
 }
 
 header, main {
   background-color: rgb(51, 138, 143);
 }
 
-.espacio {
-  height: 7vh;
-  width: 7vw;
-  display: block;
-}
-
 /*estilos header*/
 /*estilos iconoGlobal*/
 .fondoIconoGlobal {
   background-color: white;
-  width: 20vw;
-  height: 15vh;
+  max-width: 20vw;
+  max-height: 15vh;
   display: flex;
   justify-content: flex-end;
   margin-left: auto;
@@ -29,7 +22,7 @@ header, main {
 }
 
 .estiloIconoGlobal {
-  height: 60%;
+  height: 50%;
   width: 50%;
   display: block;
   margin: 18% 18%;
@@ -64,13 +57,10 @@ h2 {
   padding-left: 10%;
   padding-right: 10%;
   font-size: 1.7rem;
+  margin: 0%;
 }
 
 /*estilos pasos*/
-.pasosEVE {
-  height: 105vh;
-}
-
 .paso1 {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
@@ -78,7 +68,6 @@ h2 {
   display: block;
   text-align: left;
   padding: 0% 15% 0% 5%;
-  height: 20vh;
 }
 
 .pasos {
@@ -88,7 +77,6 @@ h2 {
   display: block;
   text-align: center;
   padding: 5% 0% 0% 5%;
-  height: 20vh;
 }
 
 .paso2 {
@@ -109,9 +97,9 @@ h2 {
   display: block;
   text-align: justify;
   padding: 5% 15% 0% 5%;
-  height: 20vh;
 }
 
+/*estilos test*/
 .test {
   box-sizing: border-box;
   display: flex;
@@ -236,11 +224,11 @@ button:hover {
 /*footer*/
 footer {
   background-color: rgb(36, 36, 34);
-  height: 30vh;
+  padding-top: 5%;
 }
 
 .contacto {
-  padding: 10%;
+  padding: 3% 3% 5% 3%;
 }
 
 .textoContacto {
@@ -250,4 +238,38 @@ footer {
   margin: 0%;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/*boton whatsapp */
+.fab {
+  padding: 5%;
+  font-size: 2rem;
+  text-align: center;
+  width: 10%;
+  text-decoration: none;
+  margin: 0%;
+  border-radius: 50%;
+}
+
+.fab:hover {
+  opacity: 0.7;
+}
+
+.fa-whatsapp {
+  background: #42b935;
+  color: white;
+}
+
+.icono-wap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0%;
+}
+
+.wap-imagen {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=main.css.map */
