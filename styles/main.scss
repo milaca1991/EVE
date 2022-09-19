@@ -87,7 +87,7 @@ h2{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
     display: block;
-    text-align: left;
+    text-align: center;
     padding: 0% 15% 0% 5%;
 
 }
@@ -99,24 +99,26 @@ h2{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
     display: block;
-    text-align: center;
-    padding: 5% 0% 0% 5%;
+    text-align: justify;
+  
 
 }
 
 
 .paso2{
 box-sizing: border-box;
-display: flex;
-flex-direction: row;
-
+text-align: center;
 
 }
 
-.iconoTierra{
+
+
+
+.iconoTest{
 
     height: 50%;
     width: 50%; 
+    
 }
 
 .paso3{
